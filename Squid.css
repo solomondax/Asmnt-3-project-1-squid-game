@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  background-image: url("./Assets/s-background -image.png");
+  color: white;
+  text-align: center;
+  height: 100vh;
+  width: 50wh;
+  background-size: cover;
+  position: relative;
+}
+/* .semi-main{
+  position: absolute;
+  left: 10%;
+} */
+/* bg-titles */
+.game-bg-title {
+  font-family: "Arial", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  opacity: 0.1;
+  position: absolute;
+  writing-mode: sideways-lr;
+  /* right: -100px; */
+  /* left:93% */
+  right: 0;
+  letter-spacing: 20px;
+}
+
+.game-bg-second-title {
+  font-family: "Arial", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  opacity: 0.1;
+  position: absolute;
+  left: 15%;
+  bottom: 100px;
+  letter-spacing: 20px;
+  bottom: 22%;
+  /* writing-mode: sideways-lr; */
+  /* z-index: 1px; */
+}
+/* images */
+
+.s-image-cont {
+  position: absolute;
+  left: 63%;
+  top: 10%;
+  /* transform: translate(-50%, -50%); */
+}
+.game-bg-img {
+  /* width:200px; */
+  height: 400px;
+}
+
+/* // navbar -- css */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+  padding-right: 50px;
+  padding-right: 50px;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+.logo {
+  height: 100px;
+}
+.p-tag {
+  height: 3px;
+  width: 85px;
+  background-color: rgb(240, 25, 25);
+  position: absolute;
+  left: 685px;
+  top: 65px;
+}
+.para-tag {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* buttons */
+.watch-now-btn {
+  background: linear-gradient(to left, rgb(179, 63, 82), orange);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 150px;
+}
+.trailer-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: solid 1px red;
+  border-radius: 3px;
+  width: 150px;
+}
+
+/* dtails card */
+.details-card {
+  position: absolute;
+  left: 5%;
+  top: 35%;
+  transform: translateY(-50%);
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.squid-game-logo {
+  height: 255px;
+}
+
+.bottom-card {
+  height: 200px;
+  width: 70%;
+  position: absolute;
+  bottom: 4%;
+  /* right: 10%;  */
+  left: 19%;
+  backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(118, 48, 48, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 25px;
+  text-align: center;
+  /* opacity:0.1; */
+}
+
+.bottom-card-img {
+  height: 170px;
+  /* padding-bottom: 10px; */
+  width: 350px;
+  border-radius: 5px;
+}
+
+.sd {
+  color: red;
+}
+
+.social-m {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  left: 90%;
+  top: 35%;
+  /* background-color: aliceblue; */
+}
